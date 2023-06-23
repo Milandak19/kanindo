@@ -1,0 +1,21 @@
+.marginRightButton {
+    margin-right: 1rem;
+    width: 171px;
+    @media only screen and (max-width: 767px) {
+        margin-bottom: 1rem;
+    }
+}
+
+.marginLeftButton {
+    width: 171px;
+}
+
+.ContainerButton{
+    display: flex;
+    flex-direction: row;
+    @media only screen and (max-width: 767px) {
+        flex-direction: column;
+        width: 60%;
+        justify-content: flex-start;
+    }
+}
