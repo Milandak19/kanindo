@@ -4,10 +4,6 @@ import Header from './partials/header/Header';
 import Footer from './partials/footer/index';
 
 class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <React.Fragment>

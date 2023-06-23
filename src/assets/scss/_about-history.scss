@@ -2,7 +2,7 @@
 
 
 /*===========================
-    23.ABOUT HISTORY css 
+    23.ABOUT HISTORY css
 ===========================*/
 
 .about-history-area{
@@ -141,6 +141,16 @@
 }
 .about-faq-area{
 	padding-top: 113px;
+  margin-top: 50px;
+  @media #{$md} {
+	  padding-top: 100px;
+    margin-top: 30px;
+    }
+
+    @media #{$xs} {
+	    padding-top: 55px;
+      margin-top: 10px;
+    }
 	& .faq-video-thumb{
 		position: relative;
 		& img{
@@ -293,7 +303,7 @@
 						font-size: 15px;
 					}
 					@media #{$sm} {
-						
+
 						padding: 0 0 0 40px;
 						line-height: 60px;
 						font-size: 16px;
