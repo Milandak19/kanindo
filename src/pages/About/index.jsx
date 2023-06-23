@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import AboutExperiencePart from '../../componets/aboutExperiencePart/Index';
 import AboutIntroPart from '../../componets/aboutIntroPart/Index';
-import AbotFaqPart from '../../componets/abotFaqPart/Index';
 import { Container, Row, Col } from 'react-bootstrap';
 import Layout from '../../layouts';
 

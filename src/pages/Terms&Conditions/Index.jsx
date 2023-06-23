@@ -23,51 +23,161 @@ class TermsConditions extends React.Component {
             <Row>
               <Col lg="6">
                 <div className="about-faq-content">
-                  <span>FAQ</span>
-                  <h2 className="title">
-                    Gets Every answer from here.
-                  </h2>
+                  <h2 className="title">Terms & Conditions</h2>
                 </div>
 
                 <div className="faq-accordion-3 mt-30">
                   <Accordion defaultActiveKey="0">
-                    {[0, 1, 2, 3, 4, 5].map((key) => (
-                      <Card
-                        key={key}
-                        className="card wow fadeInLeft"
-                        data-wow-duration=".1.2s"
-                        data-wow-delay=".2s"
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
                       >
-                        <Card.Header>
-                          <Accordion.Toggle
-                            as={Link}
-                            eventKey={key}
-                            data-wow-duration=".1.2s"
-                            data-wow-delay=".2s"
-                          >
-                            <FontAwesomeIcon
-                              icon={faMagic}
-                              className="mr-2"
-                            />
-                            Technical content may have persuasive
-                            objectives
-                          </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey={key}>
-                          <Card.Body>
-                            <p>
-                              Today, the term Information Technology
-                              (IT) has ballooned to encompass is real.
-                              Today, the term Information Technology
-                              (IT) has ballooned to encompass is
-                              real.Today, the term Information
-                              Technology (IT) has ballooned to
-                              encompass is real.
-                            </p>
-                          </Card.Body>
-                        </Accordion.Collapse>
-                      </Card>
-                    ))}
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          The Visa application process will start
+                          after all the required Documents and
+                          Payments are received.
+                        </span>
+                      </Card.Header>
+                    </Card>
+                  </Accordion>
+                  <Accordion defaultActiveKey="0">
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          Our price offer is only valid for 1 week and
+                          prices can change at any time if there is a
+                          change in Immigration rules.
+                        </span>
+                      </Card.Header>
+                    </Card>
+                  </Accordion>
+                  <Accordion defaultActiveKey="0">
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          Any problems that arise due to misuse of
+                          Visas or violating the rules are not our
+                          responsibility.
+                        </span>
+                      </Card.Header>
+                    </Card>
+                  </Accordion>
+                  <Accordion defaultActiveKey="0">
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          After your E-Visa has been issued/given by
+                          the Indonesian Immigration Authority, you
+                          must use the Visa or enter Indonesia within
+                          90 days, if it is more than 90 days, your
+                          Visa will no longer be valid.
+                        </span>
+                      </Card.Header>
+                    </Card>
+                  </Accordion>
+                  <Accordion defaultActiveKey="0">
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          If there is a delay in granting a Visa that
+                          has been applied due to extraordinary events
+                          such as riots or a political crisis, The
+                          Visa applicant must wait until Immigration
+                          can issue the Visa.
+                        </span>
+                      </Card.Header>
+                    </Card>
+                  </Accordion>
+                  <Accordion defaultActiveKey="0">
+                    <Card
+                      className="card wow fadeInLeft pt-2 pb-2 pl-4 pr-4"
+                      data-wow-duration=".1.2s"
+                      data-wow-delay=".2s"
+                    >
+                      <Card.Header
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <FontAwesomeIcon
+                          icon={faMagic}
+                          className="mr-2"
+                        />
+                        <span>
+                          If there is an identical/similar to the name
+                          of the Visa Applicant with the name of
+                          another person, The Applicant must be
+                          patient waiting for the results of the data
+                          verification process by immigration and
+                          after the data verification process is
+                          complete, the Visa process will continue.
+                        </span>
+                      </Card.Header>
+                    </Card>
                   </Accordion>
                 </div>
                 {/* faq accordion */}

@@ -225,13 +225,11 @@ class PartialNav extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to={'/company/PT%20Company%20Establishment'}>
-                  Payment Method
-                </Link>
+                <Link to={'/payment-method'}>Payment Method</Link>
               </li>
 
               <li>
-                <Link to={'/company/CV%20Company%20Establishment'}>
+                <Link to={'our-refund-policy'}>
                   Our Refund Policy
                 </Link>
               </li>
