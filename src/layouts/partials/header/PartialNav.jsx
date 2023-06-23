@@ -19,7 +19,11 @@ class PartialNav extends React.Component {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ cursor: 'pointer' }}>
+            <a
+              className="nav-link"
+              style={{ cursor: 'pointer' }}
+              href="/#"
+            >
               Visa Services
             </a>
             <ul className="sub-menu">
@@ -102,7 +106,11 @@ class PartialNav extends React.Component {
             {/* sub menu */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ cursor: 'pointer' }}>
+            <a
+              className="nav-link"
+              style={{ cursor: 'pointer' }}
+              href="/#"
+            >
               Imigration Services
             </a>
             <ul className="sub-menu">
@@ -155,7 +163,11 @@ class PartialNav extends React.Component {
             {/* sub menu */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ cursor: 'pointer' }}>
+            <a
+              className="nav-link"
+              style={{ cursor: 'pointer' }}
+              href="/#"
+            >
               Company Establishment
             </a>
             <ul className="sub-menu">
@@ -215,7 +227,11 @@ class PartialNav extends React.Component {
             {/* sub menu */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ cursor: 'pointer' }}>
+            <a
+              className="nav-link"
+              style={{ cursor: 'pointer' }}
+              href="/#"
+            >
               Terms & Conditions
             </a>
             <ul className="sub-menu">
