@@ -258,7 +258,7 @@
 	                        display: block;
 	                        border: 0;
 	                        margin: 0;
-	                        line-height: 40px;
+	                        line-height: 20px;
 	                    }
 
 	                    @media #{$xs} {
@@ -266,7 +266,7 @@
 	                        display: block;
 	                        border: 0;
 	                        margin: 0;
-	                        line-height: 40px;
+	                        line-height: 20px;
 	                    }
 
 	                    & span {
@@ -287,7 +287,8 @@
 	                    position: absolute;
 	                    left: 0;
 	                    top: 110%;
-	                    width: 260px;
+	                    width: max-content;
+                      max-width: 320px;
 	                    background-color: $white;
 	                    opacity: 0;
 	                    visibility: hidden;
@@ -751,21 +752,21 @@
 								}
 
 								&::before{
-									// width: 0%;
-									// height: 2px;
-									//background: $theme-color;
-									//position: absolute;
-									//content: '';
-									// top: -2px;
-									// right: 0;
-									// left: auto;
-									// @include transition(0.3s);
-									// @media #{$md} {
-									// 	display: none;
-									// }
-									// @media #{$xs} {
-									// 	display: none;
-									// }
+									width: 0%;
+									height: 2px;
+									background: $theme-color;
+									position: absolute;
+									content: '';
+									top: -2px;
+									right: 0;
+									left: auto;
+									@include transition(0.3s);
+									@media #{$md} {
+										display: none;
+									}
+									@media #{$xs} {
+										display: none;
+									}
 								}
 								&:hover{
 									&::before{
@@ -871,8 +872,7 @@
 			.navbar{
 				background-color: transparent !important;
 				.navbar-nav .nav-item a {
-
-					line-height: 48px;
+					line-height: 20px;
 				}
 			}
 		}
@@ -945,6 +945,31 @@
 	}
 
 	@include header-layout-fixed;
+}
+
+.mobile-nav-item {
+  font-size: 16px !important;
+  line-height: 18px !important;
+
+  @media #{$xs} {
+  line-height: 10px !important;
+  font-size: 14px !important;
+  }
+}
+
+.sub-menu-mobile {
+  font-size: 14px !important;
+  line-height: 16px !important;
+  @media #{$xs} {
+    font-size: 12px !important;
+    line-height: 8px !important;
+  }
+}
+
+.title-dropdown {
+  margin-left: 0 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
 
