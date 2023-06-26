@@ -63,6 +63,7 @@ class Footer extends React.Component {
                 <Col lg="4" md="6">
                   <div style={{ borderRadius: 'border-radius: 8px' }}>
                     <iframe
+                      title="Our Office"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8509866321606!2d106.7718890760972!3d-6.283311293705562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ca56177559%3A0xf0128941d59c8c5a!2sPlaza%203%20Pondok%20Indah!5e0!3m2!1sen!2sid!4v1687770319560!5m2!1sen!2sid"
                       width="400"
                       height="250"
