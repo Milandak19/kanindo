@@ -18,10 +18,10 @@ class Footer extends React.Component {
                   <div className="widget-item-2 widget-item-3 mt-30">
                     <h4 className="title">Phone</h4>
                     <a
-                      href="tel:0 21 3504 417"
+                      href="https://wa.me/6281292051725"
                       style={{ color: 'white' }}
                     >
-                      +62 21 3504 417 | +62 821 1724 4261
+                      +62 812‑9205‑1725
                     </a>
                     <h4
                       className="title"
@@ -35,7 +35,7 @@ class Footer extends React.Component {
                         paddingTop: 0,
                         color: 'white',
                       }}
-                      href="info@kanindoconsulting.com"
+                      href="mailto:info@kanindoconsulting.com"
                       target="__blank"
                     >
                       <p style={{ marginTop: 0, paddingTop: 0 }}>
@@ -49,11 +49,11 @@ class Footer extends React.Component {
                   <div className="widget-item-2 widget-item-3 mt-30">
                     <h4 className="title">Working Hours</h4>
                     <ul>
-                      <li>Monday - Friday: 08:00 - 17:00</li>
-                      <li>Tuesday: 08:00 - 12:00</li>
-                      <li>Wednesday: 08:00 - 12:00</li>
-                      <li>Thursday: 08:00 - 12:00</li>
-                      <li>Friday: 08:00 - 12:00</li>
+                      <li>Monday - Friday: 10:00 - 17:00</li>
+                      <li>Tuesday: 10:00 - 17:00</li>
+                      <li>Wednesday: 10:00 - 17:00</li>
+                      <li>Thursday: 10:00 - 17:00</li>
+                      <li>Friday: 10:00 - 17:00</li>
                       <li>Saturday: Closed</li>
                       <li>Sunday: Closed</li>
                     </ul>
@@ -63,12 +63,13 @@ class Footer extends React.Component {
                 <Col lg="4" md="6">
                   <div style={{ borderRadius: 'border-radius: 8px' }}>
                     <iframe
-                      title="map location"
-                      loading="lazy"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3335.5899170231896!2d106.81774117439245!3d-6.169938675071351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d62697031f%3A0x259cad06ec4e2729!2sJl.%20Suryopranoto%20No.11f%2C%20RT.14%2FRW.8%2C%20Petojo%20Utara%2C%20Kecamatan%20Gambir%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010130%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1637301861579!5m2!1sen!2sus"
-                      width={400}
-                      height={250}
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8509866321606!2d106.7718890760972!3d-6.283311293705562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ca56177559%3A0xf0128941d59c8c5a!2sPlaza%203%20Pondok%20Indah!5e0!3m2!1sen!2sid!4v1687770319560!5m2!1sen!2sid"
+                      width="400"
+                      height="250"
                       className="border-0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
                     ></iframe>
                   </div>
                 </Col>

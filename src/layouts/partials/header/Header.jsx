@@ -14,7 +14,7 @@ class Header extends React.Component {
           <div className="header-top pl-30 pr-30 white-bg">
             <Row className="align-items-center">
               <Col md="6" sm="7">
-                <div className="header-left-side text-center text-sm-left">
+                <div className="header-left-side text-center text-sm-left mb-50">
                   <ul>
                     <li>
                       <a
@@ -26,16 +26,19 @@ class Header extends React.Component {
                       </a>
                     </li>
                     <li>
-                      <a href="tel:0 21 3504 417">
+                      <a
+                        href="https://wa.me/6281292051725"
+                        target="__blank"
+                      >
                         <FiSmartphone />
-                        +62 21 3504 417 | +62 821 1724 4261
+                        +62 812‑9205‑1725
                       </a>
                     </li>
                   </ul>
                 </div>
               </Col>
               <Col md="6" sm="5">
-                <div className="header-right-social text-center text-sm-right">
+                <div className="header-right-social text-center text-sm-right mb-50">
                   <SocialLink />
                 </div>
               </Col>
@@ -45,22 +48,18 @@ class Header extends React.Component {
             <div className="navigation">
               <Navbar expand="lg" className={`transparent-color`}>
                 <Navbar.Brand as={Link} to={'/'}>
-                  <img src={Logo} alt="" />
+                  <img src={Logo} alt="logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle>
+                <Navbar.Toggle style={{ marginRight: '0px' }}>
                   <span className="toggler-icon" />
                   <span className="toggler-icon" />
                   <span className="toggler-icon" />
                 </Navbar.Toggle>{' '}
                 {/* navbar toggler */}
-                <Navbar.Collapse
-                  className="sub-menu-bar"
-                  id="navbarSupportedContent"
-                >
+                <Navbar.Collapse id="navbarSupportedContent">
                   <PartialNav />
                 </Navbar.Collapse>{' '}
                 {/* navbar collapse */}
-                <div className="navbar-btn mr-100"></div>
               </Navbar>
             </div>{' '}
             {/* navigation */}
